@@ -1,7 +1,7 @@
 {
-  "name": "generator-ionic",
-  "version": "0.7.0",
-  "description": "A generator for the Ionic Framework",
+  "name": "generator-es6ionic",
+  "version": "0.7.1",
+  "description": "A generator for the Ionic Framework that uses ECMAScript 6",
   "keywords": [
     "yeoman-generator",
     "ionic",
@@ -10,19 +10,22 @@
     "angularjs",
     "hybrid",
     "mobile",
-    "app"
+    "app",
+    "es6",
+    "tracuer",
+    "browserify"
   ],
-  "homepage": "https://github.com/diegonetto/generator-ionic",
-  "bugs": "https://github.com/diegonetto/generator-ionic/issues",
+  "homepage": "https://github.com/bendyworks/generator-ionic",
+  "bugs": "https://github.com/bendyworks/generator-ionic/issues",
   "author": {
-    "name": "Diego Netto",
-    "email": "diegormnetto@gmail.com",
-    "url": "https://github.com/diegonetto"
+    "name": "Bendyworks",
+    "email": "mic@bendyworks.com",
+    "url": "https://github.com/bendyworks"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/diegonetto/generator-ionic.git"
+    "url": "git@github.com:bendyworks/generator-ionic.git"
   },
   "scripts": {
     "test": "mocha --timeout 5000"
